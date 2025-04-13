@@ -76,3 +76,25 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+# Development notes:
+
+### Wordbanks:
+
+To access the data in the wordbank(s) this is the protocol: 
+
+#### In a Component
+```
+// In a component or composable
+const { data: wordbank } = await useFetch('/api/wordbank')
+```
+
+### In the server
+
+```
+// Server-side only (composables, utilities, etc.)
+import wordbank from '~/server/data/wordbank.json'
+
+console.log(wordbank.nouns)
+```
