@@ -1,14 +1,32 @@
 <template>
   <nav class="flex gap-4 p-4">
+    <NuxtLink
+      v-if="$route.path !== '/'"
+      to="/"
+      class="p-1 font-serif font-bold tracking-wider text-4xl hover:cursor-pointer lines"
+      >Glyphos Verba</NuxtLink
+    >
     <ul class="flex gap-4">
-      <li><NuxtLink to="/oracle">See the Oracle</NuxtLink></li>
-      <li><NuxtLink to="/deck">The Deck</NuxtLink></li>
+      <li class="btn-like" :class="{ active: $route.path === '/oracle' }">
+        <NuxtLink to="/oracle">See the Oracle</NuxtLink>
+      </li>
+      <li class="btn-like" :class="{ active: $route.path === '/deck' }">
+        <NuxtLink to="/deck">The Deck</NuxtLink>
+      </li>
     </ul>
   </nav>
 </template>
 
 <style scoped>
-li {
-  @apply z-20 p-3 text-sm bg-purple-300 text-black border rounded shadow-lg w-64 hover:cursor-pointer hover:scale-105 transition-transform;
+.lines {
+  text-decoration: underline overline;
+}
+
+li.active {
+  @apply bg-yellow-200;
+}
+
+li > a {
+  @apply h-full w-full p-3;
 }
 </style>

@@ -72,7 +72,7 @@ const hideTooltip = (cardName) => {
       <!-- Tooltip -->
       <div
         v-if="hoveredCard === card.name"
-        class="z-20 p-3 text-sm bg-purple-300 text-black border rounded shadow-lg w-64"
+        class="z-20 p-3 text-sm bg-purple-200 bg-opacity-95 text-black border rounded shadow-lg w-64"
         :ref="(el) => tooltipRefs.set(card.name, el)"
       >
         <strong class="block text-lg mb-1 capitalize">{{ card.name }}</strong>
