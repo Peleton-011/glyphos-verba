@@ -33,13 +33,21 @@ const hoveredCard = ref(null);
         class="absolute z-20 bottom-full mb-2 p-3 text-sm bg-white text-black border rounded shadow-lg w-64"
       >
         <strong class="block text-lg mb-1 capitalize">{{ card.name }}</strong>
-        <p class="text-xs italic text-gray-600">Upright: {{ card.upright.tone }}</p>
-        <p class="text-xs italic text-gray-600">Reversed: {{ card.reversed.tone }}</p>
-        <p class="mt-1">
-          {{
-            card.upright.notes.split(":")[1] + " or " + card.reversed.notes.split(":")[1]
-          }}
-        </p>
+        Upright:
+        <div class="p-2">
+          <p class="text-xs italic text-gray-600">
+            {{ card.upright.tone }}
+          </p>
+          <p class="mt-1">{{ card.upright.notes }}</p>
+        </div>
+        <hr />
+        Reversed:
+        <div class="p-2">
+          <p class="text-xs italic text-gray-600">
+            {{ card.reversed.tone }}
+          </p>
+          <p class="mt-1">{{ card.reversed.notes }}</p>
+        </div>
       </div>
     </div>
   </div>
