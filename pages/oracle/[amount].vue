@@ -69,7 +69,7 @@ const hideTooltip = (cardName) => {
 </script>
 
 <template>
-  <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-4 p-4">
+  <div class="w-full h-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
     <!-- <MysticCard svgName="re" filter="crystal" color="#00f" />
     <MysticCard svgName="re" filter="glow" color="#ff0" />
     <MysticCard svgName="re" filter="innerShadow" color="#333" /> -->
