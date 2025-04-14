@@ -14,9 +14,18 @@ const fullCardList = ref(
   }))
 );
 
-//jusst the selected amount of cards
 const cardList = ref(
-  fullCardList.value.sort(() => Math.random() - 0.5).slice(0, drawAmount)
+  fullCardList.value
+    .sort(() => Math.random() - 0.5)
+    .slice(0, drawAmount)
+    .map((card) => {
+      const isUpright = Math.random() > 0.49;
+      return {
+        name: card.name,
+        ...(isUpright ? card.upright : card.reversed),
+        isUpright,
+      };
+    })
 );
 
 const hoveredCard = ref(null);
@@ -73,7 +82,8 @@ const hideTooltip = (cardName) => {
       :ref="(el) => cardRefs.set(card.name, el)"
     >
       <img
-        class="w-full cursor-pointer bg-white hover:bg-yellow-100 hover:scale-105 transition-transform"
+        class="w-full transition-transform cursor-pointer bg-white hover:bg-yellow-100 hover:scale-105"
+        :class="{ rotated: !card.isUpright }"
         :src="`/cards/${card.name}.svg`"
         :alt="card.name"
       />
@@ -85,22 +95,24 @@ const hideTooltip = (cardName) => {
         :ref="(el) => tooltipRefs.set(card.name, el)"
       >
         <strong class="block text-lg mb-1 capitalize">{{ card.name }}</strong>
-        <u> Upright: </u>
-        <div class="p-2">
+        {{ card.isUpright ? "Upright" : "Reversed" }}
+        <div>
           <p class="text-xs italic text-gray-600">
-            {{ card.upright.tone }}
+            {{ card.tone }}
           </p>
-          <p class="mt-1">{{ card.upright.notes }}</p>
-        </div>
-        <hr class="my-2 border-purple-500" />
-        <u> Reversed: </u>
-        <div class="p-2">
-          <p class="text-xs italic text-gray-600">
-            {{ card.reversed.tone }}
-          </p>
-          <p class="mt-1">{{ card.reversed.notes }}</p>
+          <p class="mt-1">{{ card.notes }}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+img {
+  transform: rotate(0deg);
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+</style>
