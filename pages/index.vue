@@ -1,13 +1,19 @@
 <script setup lang="ts">
 definePageMeta({
-	layout: false,
+  layout: false,
 });
 </script>
 
 <template>
-	<div>
-		<h1>Glyphos Verba</h1>
+  <div class="flex flex-col items-center justify-center h-screen text-8xl gap-8">
+    <h1 class="font-serif font-bold tracking-wider">Glyphos Verba</h1>
 
-		<Navigation />
-	</div>
+    <Navigation />
+  </div>
 </template>
+
+<style scoped>
+h1 {
+  text-decoration: underline overline;
+}
+</style>
