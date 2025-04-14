@@ -1,1130 +1,754 @@
 {
-    "mvsicha": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "mvsicha (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "mvsicha (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "octava spera": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "octava spera (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "octava spera (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "papa": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "papa (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "papa (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "peranza": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "peranza (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "peranza (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "philosofia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "philosofia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "philosofia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "poesia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "poesia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "poesia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "polimnia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "polimnia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "polimnia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "prima cavsa": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "prima cavsa (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "prima cavsa (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "primo mobile": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "primo mobile (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "primo mobile (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "prvdencia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "prvdencia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "prvdencia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "re": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "re (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "re (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "satvrno": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "satvrno (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "satvrno (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "sol": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "sol (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "sol (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "talia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "talia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "talia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "temperancia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "temperancia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "temperancia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "terpsicore": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "terpsicore (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "terpsicore (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "theologia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "theologia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "theologia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "venvs": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "venvs (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "venvs (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "vrania": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "vrania (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "vrania (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "zintilomo": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "zintilomo (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "zintilomo (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "apollo": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "apollo (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "apollo (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "aritmeticha": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "aritmeticha (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "aritmeticha (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "artixan": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "artixan (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "artixan (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "caliope": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "caliope (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "caliope (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "charita": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "charita (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "charita (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "chavalier": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "chavalier (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "chavalier (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "chronico": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "chronico (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "chronico (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "clio": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "clio (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "clio (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "cosmico": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "cosmico (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "cosmico (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "doxe": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "doxe (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "doxe (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "erato": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "erato (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "erato (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "evterpe": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "evterpe (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "evterpe (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "fameio": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "fameio (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "fameio (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "fede": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "fede (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "fede (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "forteza": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "forteza (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "forteza (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "geometria": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "geometria (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "geometria (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "grammatica": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "grammatica (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "grammatica (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "iliaco": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "iliaco (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "iliaco (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "imperator": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "imperator (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "imperator (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "ivpiter": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "ivpiter (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "ivpiter (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "ivsticia": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "ivsticia (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "ivsticia (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "loica": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "loica (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "loica (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "lvna": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "lvna (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "lvna (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "marte": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "marte (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "marte (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "melpomeni": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "melpomeni (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "melpomeni (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "merchadante": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "merchadante (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "merchadante (reversed): A slant in perception, a fraying of intention."
-      }
-    },
-    "mercvrio": {
-      "upright": {
-        "tone": "mysterious",
-        "bias": [
-          "noun",
-          "emotion",
-          "shadow"
-        ],
-        "mutation_rate": 1.1,
-        "template_style": "dreamlike",
-        "notes": "mercvrio (upright): A symbolic nudge toward inner meaning."
-      },
-      "reversed": {
-        "tone": "uncertain",
-        "bias": [
-          "shadow",
-          "mutation",
-          "time"
-        ],
-        "mutation_rate": 1.3,
-        "template_style": "fragmented",
-        "notes": "mercvrio (reversed): A slant in perception, a fraying of intention."
-      }
-    }
-  }
+	"mvsicha": {
+		"upright": {
+			"tone": "cryptic",
+			"bias": ["verb", "element", "archetype"],
+			"mutation_rate": 1.2,
+			"template_style": "repetitive",
+			"notes": "The harmony is within reach. Listen with more than ears."
+		},
+		"reversed": {
+			"tone": "melancholic",
+			"bias": ["archetype", "place", "mutation"],
+			"mutation_rate": 1.34,
+			"template_style": "ritualistic",
+			"notes": "Discord enters the unseen. What you ignore grows louder."
+		}
+	},
+	"octava spera": {
+		"upright": {
+			"tone": "disoriented",
+			"bias": ["shadow", "time", "weather"],
+			"mutation_rate": 1.3,
+			"template_style": "dreamlike",
+			"notes": "Cosmic patterns align. A rare resonance."
+		},
+		"reversed": {
+			"tone": "disoriented",
+			"bias": ["shadow", "verb", "element"],
+			"mutation_rate": 1.12,
+			"template_style": "repetitive",
+			"notes": "Illusions of order. A map turned upside down."
+		}
+	},
+	"papa": {
+		"upright": {
+			"tone": "luminous",
+			"bias": ["time", "weather", "verb"],
+			"mutation_rate": 1.27,
+			"template_style": "elegiac",
+			"notes": "Tradition bears fruit. Old wisdom applies."
+		},
+		"reversed": {
+			"tone": "cryptic",
+			"bias": ["emotion", "noun", "time"],
+			"mutation_rate": 1.15,
+			"template_style": "repetitive",
+			"notes": "Stagnation in sacred robes. Question the scripture."
+		}
+	},
+	"peranza": {
+		"upright": {
+			"tone": "heavy",
+			"bias": ["weather", "emotion", "archetype"],
+			"mutation_rate": 1.09,
+			"template_style": "fragmented",
+			"notes": "Hope stirs like smoke. Something begins."
+		},
+		"reversed": {
+			"tone": "heavy",
+			"bias": ["archetype", "verb", "mutation"],
+			"mutation_rate": 1.32,
+			"template_style": "dreamlike",
+			"notes": "The candle flickers. False dawns abound."
+		}
+	},
+	"philosofia": {
+		"upright": {
+			"tone": "mysterious",
+			"bias": ["place", "archetype", "shadow"],
+			"mutation_rate": 1.03,
+			"template_style": "ritualistic",
+			"notes": "Thought deepens. You glimpse the infinite through a keyhole."
+		},
+		"reversed": {
+			"tone": "dreamlike",
+			"bias": ["place", "time", "noun"],
+			"mutation_rate": 1.34,
+			"template_style": "elegiac",
+			"notes": "Circular logic. The question eats its own tail."
+		}
+	},
+	"doxe": {
+		"upright": {
+			"tone": "resonant",
+			"bias": ["verb", "emotion", "archetype"],
+			"mutation_rate": 1.1,
+			"template_style": "ritualistic",
+			"notes": "Speak your truth. Consensus finds you."
+		},
+		"reversed": {
+			"tone": "disjointed",
+			"bias": ["shadow", "noun", "mutation"],
+			"mutation_rate": 1.33,
+			"template_style": "fragmented",
+			"notes": "Noise without signal. Belief hardened into stone."
+		}
+	},
+	"erato": {
+		"upright": {
+			"tone": "sensual",
+			"bias": ["emotion", "element", "archetype"],
+			"mutation_rate": 1.04,
+			"template_style": "dreamlike",
+			"notes": "Intimacy moves you. Fire awakens."
+		},
+		"reversed": {
+			"tone": "cool",
+			"bias": ["verb", "place", "emotion"],
+			"mutation_rate": 1.25,
+			"template_style": "elegiac",
+			"notes": "Entanglement or coldness. The flame dims."
+		}
+	},
+	"evterpe": {
+		"upright": {
+			"tone": "playful",
+			"bias": ["verb", "sound", "emotion"],
+			"mutation_rate": 1.08,
+			"template_style": "repetitive",
+			"notes": "Joy in sound. Celebration as spell."
+		},
+		"reversed": {
+			"tone": "detached",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.21,
+			"template_style": "fragmented",
+			"notes": "Hollow echo. Disconnection despite noise."
+		}
+	},
+	"fameio": {
+		"upright": {
+			"tone": "grand",
+			"bias": ["noun", "time", "archetype"],
+			"mutation_rate": 1.09,
+			"template_style": "elegiac",
+			"notes": "Recognition. You leave a mark."
+		},
+		"reversed": {
+			"tone": "ghostly",
+			"bias": ["shadow", "emotion", "mutation"],
+			"mutation_rate": 1.38,
+			"template_style": "ritualistic",
+			"notes": "Forgotten deeds. Glory fades."
+		}
+	},
+	"fede": {
+		"upright": {
+			"tone": "gentle",
+			"bias": ["emotion", "verb", "time"],
+			"mutation_rate": 1.0,
+			"template_style": "dreamlike",
+			"notes": "Trust the unseen. The bridge holds."
+		},
+		"reversed": {
+			"tone": "shaky",
+			"bias": ["shadow", "place", "mutation"],
+			"mutation_rate": 1.29,
+			"template_style": "fragmented",
+			"notes": "Doubt corrodes. Foundations shake."
+		}
+	},
+	"forteza": {
+		"upright": {
+			"tone": "grounded",
+			"bias": ["archetype", "element", "noun"],
+			"mutation_rate": 1.02,
+			"template_style": "elegiac",
+			"notes": "Endurance. Quiet power."
+		},
+		"reversed": {
+			"tone": "oppressive",
+			"bias": ["emotion", "shadow", "place"],
+			"mutation_rate": 1.26,
+			"template_style": "ritualistic",
+			"notes": "Rigidity. Strength becomes burden."
+		}
+	},
+	"geometria": {
+		"upright": {
+			"tone": "precise",
+			"bias": ["element", "structure", "verb"],
+			"mutation_rate": 1.07,
+			"template_style": "ritualistic",
+			"notes": "The shape is true. Hidden order guides."
+		},
+		"reversed": {
+			"tone": "distorted",
+			"bias": ["mutation", "noun", "shadow"],
+			"mutation_rate": 1.35,
+			"template_style": "fragmented",
+			"notes": "Disarray. Angles twist inward."
+		}
+	},
+	"grammatica": {
+		"upright": {
+			"tone": "articulate",
+			"bias": ["verb", "structure", "element"],
+			"mutation_rate": 1.03,
+			"template_style": "repetitive",
+			"notes": "Speak with precision. Words build bridges."
+		},
+		"reversed": {
+			"tone": "chaotic",
+			"bias": ["mutation", "shadow", "noun"],
+			"mutation_rate": 1.36,
+			"template_style": "fragmented",
+			"notes": "Miscommunication. A tower of babble."
+		}
+	},
+	"iliaco": {
+		"upright": {
+			"tone": "epic",
+			"bias": ["place", "time", "emotion"],
+			"mutation_rate": 1.13,
+			"template_style": "elegiac",
+			"notes": "The ancient wound reveals power."
+		},
+		"reversed": {
+			"tone": "cursed",
+			"bias": ["shadow", "emotion", "archetype"],
+			"mutation_rate": 1.39,
+			"template_style": "ritualistic",
+			"notes": "Caught in a ruinous cycle. Glory turns to ash."
+		}
+	},
+	"imperator": {
+		"upright": {
+			"tone": "commanding",
+			"bias": ["archetype", "verb", "place"],
+			"mutation_rate": 1.1,
+			"template_style": "elegiac",
+			"notes": "Take dominion. You are the lawgiver."
+		},
+		"reversed": {
+			"tone": "corrupted",
+			"bias": ["shadow", "emotion", "mutation"],
+			"mutation_rate": 1.31,
+			"template_style": "repetitive",
+			"notes": "Tyranny or abdication. Power slips."
+		}
+	},
+	"poesia": {
+		"upright": {
+			"tone": "lyrical",
+			"bias": ["word", "emotion", "shadow"],
+			"mutation_rate": 1.22,
+			"template_style": "elegiac",
+			"notes": "Language blooms. A message arrives veiled in beauty."
+		},
+		"reversed": {
+			"tone": "wistful",
+			"bias": ["verb", "noun", "emotion"],
+			"mutation_rate": 1.35,
+			"template_style": "fragmented",
+			"notes": "Misunderstandings. The verse slips between fingers."
+		}
+	},
+	"polimnia": {
+		"upright": {
+			"tone": "sacred",
+			"bias": ["archetype", "ritual", "place"],
+			"mutation_rate": 1.13,
+			"template_style": "ritualistic",
+			"notes": "Devotion finds form. A ritual reveals itself."
+		},
+		"reversed": {
+			"tone": "somber",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.3,
+			"template_style": "repetitive",
+			"notes": "Hollow worship. Echoes of lost faith."
+		}
+	},
+	"prima cavsa": {
+		"upright": {
+			"tone": "mythic",
+			"bias": ["time", "element", "archetype"],
+			"mutation_rate": 1.18,
+			"template_style": "elegiac",
+			"notes": "Root of the root. A glimpse at the origin."
+		},
+		"reversed": {
+			"tone": "disoriented",
+			"bias": ["verb", "shadow", "place"],
+			"mutation_rate": 1.29,
+			"template_style": "dreamlike",
+			"notes": "Infinite regress. The beginning hides from you."
+		}
+	},
+	"primo mobile": {
+		"upright": {
+			"tone": "expansive",
+			"bias": ["element", "verb", "time"],
+			"mutation_rate": 1.25,
+			"template_style": "repetitive",
+			"notes": "Forces are in motion. Ride the turning sky."
+		},
+		"reversed": {
+			"tone": "claustrophobic",
+			"bias": ["emotion", "noun", "mutation"],
+			"mutation_rate": 1.31,
+			"template_style": "fragmented",
+			"notes": "You resist the pull. Stillness becomes pressure."
+		}
+	},
+	"prvdencia": {
+		"upright": {
+			"tone": "measured",
+			"bias": ["place", "emotion", "verb"],
+			"mutation_rate": 1.14,
+			"template_style": "ritualistic",
+			"notes": "Caution is your ally. You see the trap."
+		},
+		"reversed": {
+			"tone": "anxious",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.33,
+			"template_style": "dreamlike",
+			"notes": "Paranoia veiled as prudence. Risk not taken is also a loss."
+		}
+	},
+	"re": {
+		"upright": {
+			"tone": "commanding",
+			"bias": ["archetype", "symbol", "place"],
+			"mutation_rate": 1.21,
+			"template_style": "elegiac",
+			"notes": "Take command. The throne awaits your name."
+		},
+		"reversed": {
+			"tone": "decaying",
+			"bias": ["element", "emotion", "shadow"],
+			"mutation_rate": 1.36,
+			"template_style": "fragmented",
+			"notes": "Hollow power. The crown is heavier than it looks."
+		}
+	},
+	"satvrno": {
+		"upright": {
+			"tone": "austere",
+			"bias": ["time", "weather", "place"],
+			"mutation_rate": 1.1,
+			"template_style": "ritualistic",
+			"notes": "Structure brings clarity. Patience wins."
+		},
+		"reversed": {
+			"tone": "oppressive",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.26,
+			"template_style": "repetitive",
+			"notes": "Delay, restriction. The bones remember your hesitation."
+		}
+	},
+	"sol": {
+		"upright": {
+			"tone": "radiant",
+			"bias": ["element", "emotion", "noun"],
+			"mutation_rate": 1.19,
+			"template_style": "elegiac",
+			"notes": "A truth is revealed in full light. Clarity, warmth, arrival."
+		},
+		"reversed": {
+			"tone": "overexposed",
+			"bias": ["shadow", "emotion", "time"],
+			"mutation_rate": 1.37,
+			"template_style": "fragmented",
+			"notes": "Burned by knowing. Too much revealed too fast."
+		}
+	},
+	"talia": {
+		"upright": {
+			"tone": "playful",
+			"bias": ["archetype", "emotion", "verb"],
+			"mutation_rate": 1.08,
+			"template_style": "repetitive",
+			"notes": "Levity heals. Laughter as spellwork."
+		},
+		"reversed": {
+			"tone": "empty",
+			"bias": ["shadow", "noun", "emotion"],
+			"mutation_rate": 1.28,
+			"template_style": "dreamlike",
+			"notes": "Hollow joy. The joke repeats without laughter."
+		}
+	},
+	"temperancia": {
+		"upright": {
+			"tone": "harmonious",
+			"bias": ["element", "verb", "emotion"],
+			"mutation_rate": 1.17,
+			"template_style": "ritualistic",
+			"notes": "A synthesis forms. The opposites blend."
+		},
+		"reversed": {
+			"tone": "chaotic",
+			"bias": ["noun", "emotion", "mutation"],
+			"mutation_rate": 1.4,
+			"template_style": "fragmented",
+			"notes": "Imbalance reigns. The vessel spills over."
+		}
+	},
+	"terpsicore": {
+		"upright": {
+			"tone": "playful",
+			"bias": ["verb", "emotion", "element"],
+			"mutation_rate": 1.11,
+			"template_style": "flowing",
+			"notes": "Flow with grace. Rhythm finds you."
+		},
+		"reversed": {
+			"tone": "hesitant",
+			"bias": ["mutation", "place", "shadow"],
+			"mutation_rate": 1.29,
+			"template_style": "fragmented",
+			"notes": "Misstep. You resist the dance."
+		}
+	},
+	"theologia": {
+		"upright": {
+			"tone": "sacred",
+			"bias": ["archetype", "place", "time"],
+			"mutation_rate": 1.08,
+			"template_style": "ritualistic",
+			"notes": "You glimpse the vast pattern. Awe deepens."
+		},
+		"reversed": {
+			"tone": "oppressive",
+			"bias": ["structure", "noun", "shadow"],
+			"mutation_rate": 1.26,
+			"template_style": "mechanical",
+			"notes": "Dogma binds. Mystery becomes machinery."
+		}
+	},
+	"venvs": {
+		"upright": {
+			"tone": "sensual",
+			"bias": ["emotion", "element", "archetype"],
+			"mutation_rate": 1.14,
+			"template_style": "lush",
+			"notes": "Connection sparks. Beauty finds form."
+		},
+		"reversed": {
+			"tone": "entangled",
+			"bias": ["emotion", "verb", "shadow"],
+			"mutation_rate": 1.31,
+			"template_style": "dreamlike",
+			"notes": "Obsession or detachment. Love twists."
+		}
+	},
+	"vrania": {
+		"upright": {
+			"tone": "mystic",
+			"bias": ["place", "weather", "noun"],
+			"mutation_rate": 1.19,
+			"template_style": "celestial",
+			"notes": "Look upward. Insight descends like starlight."
+		},
+		"reversed": {
+			"tone": "lost",
+			"bias": ["place", "time", "mutation"],
+			"mutation_rate": 1.35,
+			"template_style": "disjointed",
+			"notes": "Lost in the void. A map without stars."
+		}
+	},
+	"zintilomo": {
+		"upright": {
+			"tone": "uncanny",
+			"bias": ["noun", "archetype", "mutation"],
+			"mutation_rate": 1.21,
+			"template_style": "enigmatic",
+			"notes": "A new presence stirs. The door creaks open."
+		},
+		"reversed": {
+			"tone": "eerie",
+			"bias": ["shadow", "place", "emotion"],
+			"mutation_rate": 1.36,
+			"template_style": "ritualistic",
+			"notes": "Intrusion. What was banished returns."
+		}
+	},
+	"apollo": {
+		"upright": {
+			"tone": "radiant",
+			"bias": ["element", "verb", "archetype"],
+			"mutation_rate": 1.13,
+			"template_style": "heroic",
+			"notes": "Mastery through light. Your aim is true."
+		},
+		"reversed": {
+			"tone": "prideful",
+			"bias": ["emotion", "time", "mutation"],
+			"mutation_rate": 1.22,
+			"template_style": "cauterized",
+			"notes": "Hubris. Truth blazes too hot."
+		}
+	},
+	"aritmeticha": {
+		"upright": {
+			"tone": "precise",
+			"bias": ["element", "noun", "time"],
+			"mutation_rate": 1.05,
+			"template_style": "geometric",
+			"notes": "Patterns emerge. Order through precision."
+		},
+		"reversed": {
+			"tone": "disordered",
+			"bias": ["mutation", "verb", "shadow"],
+			"mutation_rate": 1.33,
+			"template_style": "broken",
+			"notes": "Miscounted steps. Chaos in the grid."
+		}
+	},
+	"artixan": {
+		"upright": {
+			"tone": "steady",
+			"bias": ["verb", "noun", "element"],
+			"mutation_rate": 1.07,
+			"template_style": "crafted",
+			"notes": "Creation through effort. You build what you imagine."
+		},
+		"reversed": {
+			"tone": "detached",
+			"bias": ["emotion", "mutation", "shadow"],
+			"mutation_rate": 1.28,
+			"template_style": "faded",
+			"notes": "Stagnant skill. The tools feel foreign."
+		}
+	},
+	"caliope": {
+		"upright": {
+			"tone": "grand",
+			"bias": ["archetype", "place", "verb"],
+			"mutation_rate": 1.1,
+			"template_style": "epic",
+			"notes": "Tell the story. The arc bends your way."
+		},
+		"reversed": {
+			"tone": "overwrought",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.3,
+			"template_style": "melodramatic",
+			"notes": "Lost in drama. Meaning drowns in myth."
+		}
+	},
+	"charita": {
+		"upright": {
+			"tone": "tender",
+			"bias": ["emotion", "noun", "archetype"],
+			"mutation_rate": 1.05,
+			"template_style": "gentle",
+			"notes": "Kindness arrives unbidden. Gentle abundance."
+		},
+		"reversed": {
+			"tone": "bittersweet",
+			"bias": ["emotion", "mutation", "shadow"],
+			"mutation_rate": 1.26,
+			"template_style": "fragmented",
+			"notes": "Obligation disguised as love. A gift withheld."
+		}
+	},
+	"chavalier": {
+		"upright": {
+			"tone": "resolute",
+			"bias": ["archetype", "verb", "place"],
+			"mutation_rate": 1.14,
+			"template_style": "mythic",
+			"notes": "Proceed with courage. Your path is lit by will."
+		},
+		"reversed": {
+			"tone": "doubtful",
+			"bias": ["emotion", "noun", "shadow"],
+			"mutation_rate": 1.28,
+			"template_style": "fragmented",
+			"notes": "Misplaced valor. The cause is unclear."
+		}
+	},
+	"chronico": {
+		"upright": {
+			"tone": "reflective",
+			"bias": ["time", "noun", "place"],
+			"mutation_rate": 1.1,
+			"template_style": "repetitive",
+			"notes": "The record matters. History repeats in rhyme."
+		},
+		"reversed": {
+			"tone": "disoriented",
+			"bias": ["time", "shadow", "emotion"],
+			"mutation_rate": 1.33,
+			"template_style": "dreamlike",
+			"notes": "Forgotten knowledge. The past misleads."
+		}
+	},
+	"clio": {
+		"upright": {
+			"tone": "observant",
+			"bias": ["archetype", "time", "shadow"],
+			"mutation_rate": 1.07,
+			"template_style": "elegiac",
+			"notes": "Learn from echoes. The pattern returns."
+		},
+		"reversed": {
+			"tone": "melancholic",
+			"bias": ["noun", "emotion", "mutation"],
+			"mutation_rate": 1.25,
+			"template_style": "ritualistic",
+			"notes": "Repeating blind. Nothing truly remembered."
+		}
+	},
+	"cosmico": {
+		"upright": {
+			"tone": "vast",
+			"bias": ["element", "shadow", "weather"],
+			"mutation_rate": 1.21,
+			"template_style": "dreamlike",
+			"notes": "You are part of the pattern. The net glows."
+		},
+		"reversed": {
+			"tone": "lost",
+			"bias": ["place", "noun", "mutation"],
+			"mutation_rate": 1.35,
+			"template_style": "fragmented",
+			"notes": "Drift untethered. Too far from center."
+		}
+	},
+	"ivpiter": {
+		"upright": {
+			"tone": "expansive",
+			"bias": ["weather", "verb", "element"],
+			"mutation_rate": 1.18,
+			"template_style": "mythic",
+			"notes": "Growth aligned with justice. Favor flows."
+		},
+		"reversed": {
+			"tone": "arrogant",
+			"bias": ["archetype", "emotion", "shadow"],
+			"mutation_rate": 1.29,
+			"template_style": "grandiose",
+			"notes": "Overreach. Promise without grounding."
+		}
+	},
+	"ivsticia": {
+		"upright": {
+			"tone": "measured",
+			"bias": ["noun", "emotion", "verb"],
+			"mutation_rate": 1.06,
+			"template_style": "ritualistic",
+			"notes": "Fairness arrives. The blade is sharp but just."
+		},
+		"reversed": {
+			"tone": "ominous",
+			"bias": ["shadow", "mutation", "place"],
+			"mutation_rate": 1.31,
+			"template_style": "fragmented",
+			"notes": "Corruption. The scale tips unseen."
+		}
+	},
+	"loica": {
+		"upright": {
+			"tone": "precise",
+			"bias": ["verb", "noun", "place"],
+			"mutation_rate": 1.02,
+			"template_style": "structured",
+			"notes": "Clarity through structure. A problem untangled."
+		},
+		"reversed": {
+			"tone": "detached",
+			"bias": ["emotion", "shadow", "archetype"],
+			"mutation_rate": 1.3,
+			"template_style": "circular",
+			"notes": "Over-analysis. You miss the soul of it."
+		}
+	},
+	"lvna": {
+		"upright": {
+			"tone": "intuitive",
+			"bias": ["weather", "emotion", "place"],
+			"mutation_rate": 1.12,
+			"template_style": "dreamlike",
+			"notes": "Dreams speak clearly. Follow the tide."
+		},
+		"reversed": {
+			"tone": "uncertain",
+			"bias": ["shadow", "mutation", "verb"],
+			"mutation_rate": 1.36,
+			"template_style": "fragmented",
+			"notes": "Deception. Nothing stays the same."
+		}
+	},
+	"marte": {
+		"upright": {
+			"tone": "fierce",
+			"bias": ["verb", "element", "emotion"],
+			"mutation_rate": 1.22,
+			"template_style": "ritualistic",
+			"notes": "Act decisively. The blade is drawn."
+		},
+		"reversed": {
+			"tone": "volatile",
+			"bias": ["emotion", "shadow", "archetype"],
+			"mutation_rate": 1.34,
+			"template_style": "fragmented",
+			"notes": "Violence misdirected. The fight consumes."
+		}
+	},
+	"melpomeni": {
+		"upright": {
+			"tone": "somber",
+			"bias": ["emotion", "shadow", "noun"],
+			"mutation_rate": 1.09,
+			"template_style": "elegiac",
+			"notes": "Embrace the sorrow. It teaches through depth."
+		},
+		"reversed": {
+			"tone": "performative",
+			"bias": ["mutation", "archetype", "verb"],
+			"mutation_rate": 1.32,
+			"template_style": "dramatic",
+			"notes": "Melodrama. Wounds recited, not healed."
+		}
+	},
+	"merchadante": {
+		"upright": {
+			"tone": "balanced",
+			"bias": ["noun", "verb", "element"],
+			"mutation_rate": 1.08,
+			"template_style": "structured",
+			"notes": "A fair trade. Energy returns."
+		},
+		"reversed": {
+			"tone": "tense",
+			"bias": ["shadow", "emotion", "mutation"],
+			"mutation_rate": 1.27,
+			"template_style": "repetitive",
+			"notes": "Unequal bargain. Something is owed."
+		}
+	},
+	"mercvrio": {
+		"upright": {
+			"tone": "quick",
+			"bias": ["verb", "element", "shadow"],
+			"mutation_rate": 1.19,
+			"template_style": "chaotic",
+			"notes": "Change is swift. A message arrives."
+		},
+		"reversed": {
+			"tone": "trickster",
+			"bias": ["shadow", "emotion", "place"],
+			"mutation_rate": 1.37,
+			"template_style": "fragmented",
+			"notes": "Deceit or delay. Mixed signals."
+		}
+	}
+}
