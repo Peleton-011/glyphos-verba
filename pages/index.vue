@@ -5,6 +5,7 @@ definePageMeta({
 </script>
 
 <template>
+  <!-- Background -->
   <div class="h-screen w-screen bg-black absolute l-0 t-0 -z-10 overflow-hidden">
     <div class="absolute -inset-[100px] opacity-50">
       <div
@@ -18,6 +19,7 @@ definePageMeta({
       ></div>
     </div>
   </div>
+  <!-- Content -->
   <div class="flex flex-col items-center justify-center h-screen gap-8">
     <h1 class="font-serif font-bold tracking-wider text-8xl text-white">Glyphos Verba</h1>
 

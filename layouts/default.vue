@@ -3,7 +3,8 @@ const isProduction = process.env.NODE_ENV === "production";
 </script>
 
 <template>
-  <div class="h-screen w-screen bg-black absolute l-0 t-0 -z-10 overflow-hidden">
+  <!-- Background -->
+  <div class="h-screen w-screen fixed bg-black l-0 t-0 -z-10 overflow-hidden">
     <div class="absolute -inset-[100px] opacity-50">
       <div
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-[128px] animate-pulse"
@@ -16,9 +17,11 @@ const isProduction = process.env.NODE_ENV === "production";
       ></div>
     </div>
   </div>
+  <!-- Navigation -->
   <header>
     <Navigation />
   </header>
+  <!-- Content -->
   <DevLookingGlass v-if="!isProduction" />
   <hr />
   <NuxtPage />

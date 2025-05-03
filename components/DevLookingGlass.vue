@@ -81,12 +81,12 @@ const missingDescriptions = ref(
 </script>
 
 <template>
-  <div class="p-4 m-4 border-2 border-purple-500 bg-purple-300">
+  <div class="text-box">
     <h3>This is the Development Looking Glass</h3>
     <p>If you see this and you are not a developer, then something is wrong</p>
-    <hr class="bg-purple-500 border-purple-500 m-2" />
+    <hr class="hr" />
     <div><strong>Categories: </strong>{{ categories.join(", ") }}</div>
-    <hr v-if="missingDescriptions.length" class="bg-purple-500 border-purple-500 m-2" />
+    <hr v-if="missingDescriptions.length" class="hr" />
     <div v-if="missingDescriptions.length">
       <strong> Missing Descriptions: </strong>
       {{ missingDescriptions }}

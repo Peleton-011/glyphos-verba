@@ -16,17 +16,3 @@
     </ul>
   </nav>
 </template>
-
-<style scoped>
-.lines {
-  text-decoration: underline overline;
-}
-
-li.active {
-  @apply bg-yellow-200;
-}
-
-li > a {
-  @apply h-full w-full p-3;
-}
-</style>

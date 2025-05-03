@@ -3,15 +3,46 @@
 @tailwind utilities;
 
 body {
-    /* background-color: #000; */
-    color: #fff;
-    user-select: none;
-  }
-  
-  .section-title {
-    @apply font-serif font-bold tracking-wider text-4xl p-4 w-full text-center;
-  }
-  
-  .btn-like {
-    @apply flex z-20 text-sm bg-purple-300 border rounded shadow-lg w-64 hover:cursor-pointer hover:scale-105 transition-transform;
-  }
+	/* background-color: #000; */
+	color: #fff;
+	user-select: none;
+}
+
+.section-title {
+	@apply font-serif font-bold tracking-wider text-4xl p-4 w-full text-center;
+}
+
+.btn-like,
+.text-box {
+	@apply border-2 rounded-lg bg-purple-800 bg-opacity-50 border-purple-500;
+}
+
+.btn-like {
+	@apply font-serif font-bold flex z-20 shadow-lg w-64 hover:cursor-pointer hover:scale-105 transition-transform;
+}
+
+.btn-like.active {
+	@apply bg-purple-400 bg-opacity-80;
+
+	& > * {
+		--tw-shadow-color: rgba(107, 33, 168, 1);
+		/* --tw-shadow-color: rgba(168, 85, 247, 1); */
+		text-shadow: 0 2px 4px var(--tw-shadow-color);
+	}
+}
+
+li > a {
+	@apply h-full w-full p-3;
+}
+
+.text-box {
+	@apply p-4 m-4;
+}
+
+.hr {
+	@apply bg-purple-500 border-purple-500 m-2;
+}
+
+.lines {
+	text-decoration: underline overline;
+}
