@@ -14,7 +14,7 @@ body {
 
 .btn-like,
 .text-box {
-	@apply border-2 rounded-lg bg-purple-800 bg-opacity-50 border-purple-500;
+	@apply rounded-lg bg-purple-800 bg-opacity-50 border-purple-500;
 }
 
 .btn-like {
@@ -43,6 +43,78 @@ li > a {
 	@apply bg-purple-500 border-purple-500 m-2;
 }
 
-.lines {
-	text-decoration: underline overline;
+@layer utilities {
+	@keyframes animStar {
+		from {
+			transform: translateY(0px);
+		}
+		to {
+			transform: translateY(-2000px);
+		}
+	}
+
+	.animate-star {
+		animation: animStar 50s running infinite;
+	}
+
+	.delay-100 {
+		animation-duration: 100s;
+	}
+
+	.delay-200 {
+		animation-duration: 150s;
+	}
+}
+
+@layer components {
+	.font-serif-stretched {
+		@apply font-serif;
+		transform: scaleY(1.3) translateY(15%); /* Stretch vertically by 30% */
+		transform-origin: bottom; /* Or center, depending on what looks better */
+	}
+
+	.text-glow {
+		display: block;
+		text-shadow: 0 0 10px var(--color1), 0 0 20px var(--color2),
+			0 0 40px var(--color3), 0 0 80px var(--color4);
+		will-change: filter, color;
+		filter: saturate(50%);
+
+		color: yellow;
+		--color1: goldenrod;
+		--color2: orangered;
+		--color3: mediumblue;
+		--color4: purple;
+	}
+
+	.text-lines {
+		text-decoration: underline overline;
+	}
+
+    .btn-outline {
+        @apply relative inline-block px-6 py-3 font-bold tracking-wide border-2 border-current text-white bg-transparent overflow-visible;
+      }
+    
+      .btn-outline::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+    
+        /* Offset creates the cutout effect */
+        transform: translate(4px, 4px);
+    
+        /* The visible "shadow" area */
+        background: linear-gradient(to right, #8b5cf6, #ec4899); /* purple to pink */
+        clip-path: polygon(
+          0% 0%, 100% 0%, 100% 100%, 0% 100%,
+          0% 0% /* Outer rect, fallback if unsupported */
+        );
+        border-radius: 0.5rem; /* match button if using rounded */
+        transition: background 0.3s ease;
+      }
+    
+      .btn-outline:hover::before {
+        background: linear-gradient(to right, #22d3ee, #6366f1); /* cyan to indigo */
+      }
 }
