@@ -14,7 +14,7 @@ const starsBig = generateStars(100);
 
 <template>
   <!-- Glow -->
-  <div class="-z-10 h-screen w-screen fixed bg-black l-0 t-0 overflow-hidden">
+  <div class="z-[-10] h-screen w-screen fixed bg-black l-0 t-0 overflow-hidden">
     <div class="absolute -inset-[100px] opacity-30">
       <div
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-[128px] animate-pulse"
@@ -29,7 +29,7 @@ const starsBig = generateStars(100);
   </div>
 
   <!-- Stars -->
-  <div class="-z-15 fixed w-full h-screen overflow-hidden">
+  <div class="z-[-5] fixed w-full h-screen overflow-hidden">
     <!-- bg-gradient-to-b from-[#1B2735] to-[#090A0F]" -->
     <div
       class="absolute w-[1px] h-[1px] bg-transparent animate-star"
