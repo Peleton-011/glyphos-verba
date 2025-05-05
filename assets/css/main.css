@@ -87,34 +87,64 @@ li > a {
 		--color4: purple;
 	}
 
+	.text-glow-stylized {
+		@apply font-serif-stretched text-glow font-bold tracking-tighter text-[#f2d16d];
+	}
+
 	.text-lines {
 		text-decoration: underline overline;
 	}
 
-    .btn-outline {
-        @apply relative inline-block px-6 py-3 font-bold tracking-wide border-2 border-current text-white bg-transparent overflow-visible;
-      }
-    
-      .btn-outline::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        z-index: -1;
-    
-        /* Offset creates the cutout effect */
-        transform: translate(4px, 4px);
-    
-        /* The visible "shadow" area */
-        background: linear-gradient(to right, #8b5cf6, #ec4899); /* purple to pink */
-        clip-path: polygon(
-          0% 0%, 100% 0%, 100% 100%, 0% 100%,
-          0% 0% /* Outer rect, fallback if unsupported */
-        );
-        border-radius: 0.5rem; /* match button if using rounded */
-        transition: background 0.3s ease;
-      }
-    
-      .btn-outline:hover::before {
-        background: linear-gradient(to right, #22d3ee, #6366f1); /* cyan to indigo */
-      }
+	.btn-outline {
+		--offset-border-size: 4px;
+		position: relative;
+		padding: 0.5rem 1rem;
+		border: 0;
+		border-radius: 0.25rem;
+		background-clip: text;
+		transition: transform 200ms, text-shadow 0.3s ease-in-out;
+		margin: auto;
+		@apply font-serif text-lg font-bold;
+	}
+
+	.btn-outline:hover {
+		@apply text-glow;
+	}
+
+	.btn-outline::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		transform: translate(
+			var(--offset-border-size),
+			var(--offset-border-size)
+		);
+		z-index: -1;
+		background: linear-gradient(to right, #f2d16d 50%, white 50%);
+		background-size: 200% 100%;
+		background-position: right;
+		border-radius: inherit;
+		transition: transform 200ms, background-position 0.3s ease-in-out;
+		clip-path: polygon(
+			0% calc(100% - var(--offset-border-size)),
+			0% 100%,
+			100% 100%,
+			100% 0,
+			calc(100% - var(--offset-border-size)) 0,
+			calc(100% - var(--offset-border-size))
+				calc(100% - var(--offset-border-size))
+		);
+	}
+
+	.btn-outline:hover::after {
+		background-position: left;
+	}
+
+	.btn-outline.active {
+		@apply text-glow;
+	}
+
+	.btn-outline.active::after {
+		background-position: left;
+	}
 }
