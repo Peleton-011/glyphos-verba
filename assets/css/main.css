@@ -111,7 +111,7 @@ li > a {
 		border: 0;
 		border-radius: 0.25rem;
 		background-clip: text;
-		transition: transform 200ms, text-shadow 0.3s ease-in-out;
+		transition: transform 200ms, text-shadow 0.2s ease-in-out;
 		margin: auto;
 		@apply font-serif text-lg font-bold;
 	}
@@ -133,7 +133,7 @@ li > a {
 		background-size: 200% 100%;
 		background-position: right;
 		border-radius: inherit;
-		transition: transform 200ms, background-position 0.3s ease-in-out;
+		transition: transform 200ms, background-position 0.2s ease-in-out;
 		clip-path: polygon(
 			0% calc(100% - var(--offset-border-size)),
 			0% 100%,
