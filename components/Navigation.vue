@@ -4,7 +4,7 @@ const route = useRoute();
 </script>
 
 <template>
-  <nav class="navigation mb-5">
+  <nav class="navigation">
     <ul class="flex gap-4">
       <li class="btn-outline" :class="{ active: $route.path === '/oracle' }">
         <NuxtLink to="/oracle">See the Oracle</NuxtLink>

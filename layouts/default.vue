@@ -9,7 +9,7 @@ const route = useRoute();
   <!-- Background -->
   <Background />
   <!-- Navigation -->
-  <header v-if="route.path !== '/'">
+  <header v-if="route.path !== '/'" class="py-5">
     <Navigation />
   </header>
   <!-- Content -->
