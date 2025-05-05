@@ -41,7 +41,7 @@ function clamp(value) {
       @input="$emit('update:modelValue', clamp($event.target.value))"
       :min="min"
       :max="max"
-      class="border rounded px-3 py-2 w-full"
+      class="border rounded px-3 py-2 w-full bg-transparent"
     />
     <p v-if="modelValue < min || modelValue > max" class="text-red-500 text-sm mt-1">
       Please enter a number between {{ min }} and {{ max }}.

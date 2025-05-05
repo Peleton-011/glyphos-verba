@@ -17,7 +17,7 @@ const selectedAmount = ref(1);
         />
 
         <button
-          class="btn-like font-serif font-bold tracking-wider text-2xl p-4"
+          class="btn-outline w-full"
           @click="$router.push(`/oracle/${selectedAmount}`)"
         >
           Draw
