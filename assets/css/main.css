@@ -67,6 +67,15 @@ li > a {
 }
 
 @layer components {
+
+    .navigation {
+        @apply flex justify-center items-center gap-4 p-4;
+    }
+
+    .navigation.home {
+        @apply flex-col h-screen gap-8;
+    }
+
 	.font-serif-stretched {
 		@apply font-serif;
 		transform: scaleY(1.3) translateY(15%); /* Stretch vertically by 30% */
