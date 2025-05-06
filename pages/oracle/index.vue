@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 const selectedAmount = ref(1);
+const query = ref("");
 </script>
 
 <template>
@@ -8,7 +9,7 @@ const selectedAmount = ref(1);
 
     <div class="flex justify-center">
       <form class="flex-col w-1/4" @submit.prevent>
-        <AmountInput
+        <InputsAmount
           v-model="selectedAmount"
           :min="1"
           :max="15"
@@ -16,9 +17,24 @@ const selectedAmount = ref(1);
           text="Cards to Draw"
         />
 
+        <InputsText
+          v-model="query"
+          label="Ask your question…"
+          placeholder="Consult the oracle"
+          class="w-full mb-4"
+        />
+
         <button
           class="btn-outline w-full"
-          @click="$router.push(`/oracle/${selectedAmount}`)"
+          @click="
+            $router.push({
+              path: '/oracle/reading',
+              query: {
+                q: query || '',
+                c: String(selectedAmount),
+              },
+            })
+          "
         >
           Draw
         </button>
