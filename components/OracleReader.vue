@@ -48,6 +48,7 @@ function stepOne() {
 
 function stepTwo() {
 	read(query.value, drawnCards.value as CardDraw[]);
+    console.log(output.value);
 }
 
 // format into paragraphs
