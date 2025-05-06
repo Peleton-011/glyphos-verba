@@ -1,30 +1,23 @@
 // /composables/useOracle.ts
 import { ref } from "vue";
-import cards from "~/server/data/cards-v1.json";
+import cardsJson from "~/server/data/cards-v1.json";
 
-type Orientation = "upright" | "reversed";
+import type { CardDraw, CardMeaning, CardFace, Orientation } from "./useOracle";
 
-export function useDraw(drawAmount = 1) {
-	const fullCardList = ref(
-		Object.entries(cards).map(([name, meanings]) => ({
-			name,
-			...meanings,
-		}))
-	);
+const cards = cardsJson as Record<string, CardMeaning>;
 
-	const cardList = ref(
-		fullCardList.value
-			.sort(() => Math.random() - 0.5)
-			.slice(0, drawAmount)
-			.map((card) => {
-				const isUpright = Math.random() > 0.49;
-				return {
-					name: card.name,
-					...(isUpright ? card.upright : card.reversed),
-					isUpright,
-				};
-			})
-	);
+export function useDraw() {
+	const drawnCards = ref<CardDraw[]>([]);
 
-	return cardList.value;
+	function draw(count: number) {
+		const keys = Object.keys(cards);
+		drawnCards.value = Array.from({ length: count }).map(() => {
+			const name = keys[Math.floor(Math.random() * keys.length)];
+			const orientation: Orientation =
+				Math.random() < 0.5 ? "upright" : "reversed";
+			return { name, orientation, effect: cards[name][orientation] };
+		});
+	}
+
+	return { drawnCards, draw };
 }
